@@ -1,0 +1,14 @@
+# Temporales y herramientas locales
+work/
+tmp/
+node_modules/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+# Guardar datos personales únicamente en estas carpetas excluidas
+private/
+personal-data/
+.env
+.env.*
+# Conservar documentación, demos y evidencias sintéticas/revisadas

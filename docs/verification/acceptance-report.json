@@ -1,0 +1,384 @@
+{
+  "startedAt": "2026-10-17T00:03:36.627Z",
+  "browserVersion": "Chrome/155.0.8059.82 (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36)",
+  "os": "win32 10.0.26300 (x64)",
+  "fileUrl": "file:///c:/!Codex/ArgonPull/oc-passport/oc-passport.html",
+  "cases": {
+    "A": {
+      "status": "Superada",
+      "details": {
+        "initialCheck": {
+          "protocol": "file:",
+          "href": "file:///C:/!Codex/ArgonPull/oc-passport/oc-passport.html",
+          "online": false,
+          "storageStatus": "Guardado",
+          "countText": "3 / 20",
+          "itemsCount": 3,
+          "demoBadgesCount": 3,
+          "selectedName": "Aurelia Vallefior"
+        },
+        "caseAEditResult": {
+          "imageStatus": "Ilustración activa: 1600 × 1200 px (PNG normalizado)",
+          "name": "Seraphina de Albor"
+        },
+        "pngFileA": "seraphina-de-albor-ficha.png",
+        "jsonFileA": "oc-passport-coleccion.json"
+      }
+    },
+    "B": {
+      "status": "Superada",
+      "details": {
+        "switchVerification": {
+          "lioraSnap": {
+            "name": "Liora Vesper",
+            "role": "Tejedora de constelaciones",
+            "universe": "Valles de Ópalo",
+            "color0": "#6F5BFF",
+            "themeLavender": true,
+            "fitContain": true,
+            "imageInfo": "Ilustración activa: 900 × 1200 px (PNG normalizado)"
+          },
+          "danteSnap": {
+            "name": "Dante Solís",
+            "role": "Piloto de dirigibles solares",
+            "universe": "Horizonte Áureo",
+            "color0": "#1E163B",
+            "themeNight": true,
+            "fitCover": true,
+            "imageInfo": "Ilustración activa: 240 × 180 px (PNG normalizado)"
+          }
+        },
+        "dupAndDeleteVerification": {
+          "differentIds": true,
+          "copyInitialName": "Dante Solís (copia)",
+          "origNameAfterCopyEdit": "Dante Solís",
+          "origRoleAfterCopyEdit": "Piloto de dirigibles solares",
+          "modalVisibleOnOpen": true,
+          "modalNamedCharacter": true,
+          "countBeforeDelete": 6,
+          "countAfterCancel": 6,
+          "countAfterConfirm": 5
+        },
+        "searchVerification": {
+          "byNameCount": 1,
+          "byUniverseCount": 1,
+          "noMatchListHidden": true,
+          "noMatchBoxVisible": true,
+          "emptyCollectionHidden": true,
+          "restoredCount": 5
+        }
+      }
+    },
+    "C": {
+      "status": "Superada",
+      "details": {
+        "fileName": "liora-vesper-ficha.png",
+        "lioraPngHeader": {
+          "validSignature": true,
+          "width": 1600,
+          "height": 2000
+        },
+        "containDiffersFromCover": true,
+        "pngPixelMatch": {
+          "decodedWidth": 1600,
+          "decodedHeight": 2000,
+          "diffPixels": 0
+        }
+      }
+    },
+    "D": {
+      "status": "Superada",
+      "details": {
+        "caseDResult": {
+          "rName": {
+            "finalLen": 60,
+            "equalsExact": true
+          },
+          "rRole": {
+            "finalLen": 80,
+            "equalsExact": true
+          },
+          "rUni": {
+            "finalLen": 80,
+            "equalsExact": true
+          },
+          "rPers": {
+            "finalLen": 400,
+            "equalsExact": true
+          },
+          "rNotes": {
+            "finalLen": 600,
+            "equalsExact": true
+          },
+          "counters": {
+            "name": "60 / 60",
+            "role": "80 / 80",
+            "universe": "80 / 80",
+            "personality": "400 / 400",
+            "visualNotes": "600 / 600"
+          },
+          "overflowHiddenAtMax": true,
+          "pngEnabledAtMax": true
+        },
+        "caseDOverflowResult": {
+          "forcedCodePoints": 278,
+          "warningVisible": true,
+          "warningIdentifiesField": true,
+          "warningText": "El contenido del campo «Notas de diseño visual» supera el espacio vertical disponible con letra legible (mínimo 28 px). Reduce los saltos de línea o la extensión en «Notas de diseño visual» para desbloquear la exportación PNG. Tus datos y la copia JSON siguen disponibles.",
+          "pngDisabled": true,
+          "textPreservedInInput": true,
+          "pngReenabledAfterFix": true
+        }
+      }
+    },
+    "E": {
+      "status": "Superada",
+      "details": {
+        "emptyAfterDeleteAll": {
+          "remaining": 0,
+          "emptyStateVisible": true,
+          "countBadge": "0 / 20"
+        },
+        "restoredComparison": {
+          "restoredCount": 5,
+          "allIdsAreNew": true,
+          "allFieldsAndImagesMatch": true
+        },
+        "afterAdditiveAndEmpty": {
+          "totalCount": 6,
+          "bannerTitle": "Copia JSON vacía válida"
+        }
+      }
+    },
+    "F": {
+      "status": "Superada",
+      "details": {
+        "statusBeforeReload": "Guardado",
+        "afterReloadCheck": {
+          "storageStatus": "Guardado",
+          "count": 6,
+          "firstCharName": "Dante Solís"
+        },
+        "emptyReloadCheck": {
+          "countAfterReload": 0,
+          "emptyBoxVisible": true,
+          "storageStatus": "Guardado"
+        },
+        "readErrorCheck": {
+          "pillText": "Modo temporal",
+          "bannerVisible": true,
+          "bannerMain": "Modo temporal. Descarga una copia para conservar tu trabajo. Los cambios se perderán al cerrar o recargar",
+          "bannerDetail": "Fallo al leer el almacenamiento existente (Fallo al leer los datos existentes en IndexedDB.). No se han sobrescrito tus datos con ejemplos.",
+          "countInMemory": 0
+        },
+        "initErrorCheck": {
+          "pillText": "Modo temporal",
+          "bannerVisible": true,
+          "bannerMain": "Modo temporal. Descarga una copia para conservar tu trabajo. Los cambios se perderán al cerrar o recargar",
+          "countInMemory": 3
+        },
+        "preservedAfterReadInitFaults": {
+          "count": 5,
+          "pillText": "Guardado"
+        },
+        "quotaErrorCheck": {
+          "pillText": "Modo temporal",
+          "bannerVisible": true,
+          "bannerMain": "Modo temporal. Descarga una copia para conservar tu trabajo. Los cambios se perderán al cerrar o recargar",
+          "bannerDetail": "Se agotó la cuota de almacenamiento local del navegador (QuotaExceededError)."
+        },
+        "writeErrorCheck": {
+          "pillText": "Modo temporal",
+          "bannerVisible": true,
+          "bannerDetail": "No se pudo completar la escritura automática (Fallo de escritura en la transacción de IndexedDB.)."
+        }
+      }
+    },
+    "G": {
+      "status": "Superada",
+      "details": {
+        "imageRejectionsCheck": {
+          "imgStatusBefore": "Ilustración activa: 240 × 180 px (PNG normalizado)",
+          "rSvg": {
+            "errorVisible": true,
+            "errorMsg": "No se admiten archivos SVG del usuario. Importa únicamente imágenes raster en formato PNG, JPEG o WebP. Se conservó la ilustración anterior.",
+            "statusAfter": "Ilustración activa: 240 × 180 px (PNG normalizado)"
+          },
+          "rSvgDisguised": {
+            "errorVisible": true,
+            "errorMsg": "No se admiten archivos SVG del usuario. Importa únicamente imágenes raster en formato PNG, JPEG o WebP. Se conservó la ilustración anterior.",
+            "statusAfter": "Ilustración activa: 240 × 180 px (PNG normalizado)"
+          },
+          "rUnsupported": {
+            "errorVisible": true,
+            "errorMsg": "Formato de imagen no permitido. Solo se aceptan archivos raster reales en formato PNG, JPEG o WebP. Se conservó la ilustración anterior.",
+            "statusAfter": "Ilustración activa: 240 × 180 px (PNG normalizado)"
+          },
+          "rCorruptDecode": {
+            "errorVisible": true,
+            "errorMsg": "No se pudo decodificar la imagen raster. El archivo está dañado o su contenido es inválido. Se conservó la ilustración anterior.",
+            "statusAfter": "Ilustración activa: 240 × 180 px (PNG normalizado)"
+          },
+          "rOver10Mb": {
+            "errorVisible": true,
+            "errorMsg": "El archivo supera el límite máximo de 10 MB (10.00 MB). Elige una imagen de hasta 10 MB. Se conservó la ilustración anterior.",
+            "statusAfter": "Ilustración activa: 240 × 180 px (PNG normalizado)"
+          },
+          "rExact10Mb": {
+            "errorVisible": false,
+            "errorMsg": "",
+            "statusAfter": "Ilustración activa: 64 × 64 px (PNG normalizado)"
+          },
+          "rExact25Mp": {
+            "errorVisible": false,
+            "errorMsg": "",
+            "statusAfter": "Ilustración activa: 1600 × 1600 px (PNG normalizado)"
+          },
+          "rOver25Mp": {
+            "errorVisible": true,
+            "errorMsg": "La imagen tiene 5001 × 5000 px (25.00 MP) y supera el límite máximo de 25 megapíxeles. Se conservó la ilustración anterior.",
+            "statusAfter": "Ilustración activa: 1600 × 1600 px (PNG normalizado)"
+          }
+        },
+        "jsonAndLimitCheck": {
+          "startCount": 5,
+          "startSelectedId": "oc-10541444-1458-4e26-901e-7d0d616bfcb0",
+          "rCorrupt": {
+            "count": 5,
+            "selectedId": "oc-10541444-1458-4e26-901e-7d0d616bfcb0",
+            "title": "Importación JSON rechazada",
+            "text": "El archivo no es un JSON válido (error de sintaxis al analizar la copia). La colección y selección actuales permanecen intactas."
+          },
+          "rBadVer": {
+            "count": 5,
+            "selectedId": "oc-10541444-1458-4e26-901e-7d0d616bfcb0",
+            "title": "Importación JSON rechazada",
+            "text": "Versión de copia no admitida (2). Esta versión de OC Passport requiere version = 1. La colección y selección actuales permanecen intactas."
+          },
+          "rExtraKey": {
+            "count": 5,
+            "selectedId": "oc-10541444-1458-4e26-901e-7d0d616bfcb0",
+            "title": "Importación JSON rechazada",
+            "text": "Propiedad desconocida en la raíz del JSON: «extra». La colección y selección actuales permanecen intactas."
+          },
+          "rLongName": {
+            "count": 5,
+            "selectedId": "oc-10541444-1458-4e26-901e-7d0d616bfcb0",
+            "title": "Importación JSON rechazada",
+            "text": "Personaje #1: el campo name supera el máximo de 60 caracteres (61). La colección y selección actuales permanecen intactas."
+          },
+          "rRemoteUrl": {
+            "count": 5,
+            "selectedId": "oc-10541444-1458-4e26-901e-7d0d616bfcb0",
+            "title": "Importación JSON rechazada",
+            "text": "No se admiten URLs remotas, rutas de disco ni referencias blob temporales en image.data. La colección y selección actuales permanecen intactas."
+          },
+          "rSideOver1600": {
+            "count": 5,
+            "selectedId": "oc-10541444-1458-4e26-901e-7d0d616bfcb0",
+            "title": "Importación JSON rechazada",
+            "text": "Personaje #1: la imagen supera el lado máximo normalizado de 1600 px (1601 × 180). La colección y selección actuales permanecen intactas."
+          },
+          "rMismatchDim": {
+            "count": 5,
+            "selectedId": "oc-10541444-1458-4e26-901e-7d0d616bfcb0",
+            "title": "Importación JSON rechazada",
+            "text": "Personaje #1: las dimensiones reales decodificadas (240 × 180) no coinciden con los metadatos declarados (123 × 180). La colección y selección actuales permanecen intactas."
+          },
+          "rAtomicBatch": {
+            "count": 5,
+            "selectedId": "oc-10541444-1458-4e26-901e-7d0d616bfcb0",
+            "title": "Importación JSON rechazada",
+            "text": "Personaje #2: el color #5 («NO-HEX») no cumple el formato #RRGGBB. La colección y selección actuales permanecen intactas."
+          },
+          "rXssImport": {
+            "count": 6,
+            "selectedId": "oc-10541444-1458-4e26-901e-7d0d616bfcb0",
+            "title": "Copia JSON importada correctamente",
+            "text": "Se añadieron 1 personaje(s) con identificadores nuevos. Total en colección: 6 / 20."
+          },
+          "xssNotExecuted": true,
+          "countAtLimit": 20,
+          "createOver20Banner": "Límite de 20 personajes alcanzado",
+          "countAfterCreateOver20": 20,
+          "dupOver20Banner": "Límite de 20 personajes alcanzado",
+          "countAfterDupOver20": 20,
+          "rImportOver20": {
+            "count": 20,
+            "selectedId": "oc-4060c0c5-6ecc-4d92-a95a-e565c941dcd7",
+            "title": "Importación JSON rechazada",
+            "text": "No se puede importar el lote de 1 personaje(s) porque la colección actual tiene 20 y superaría el límite máximo de 20 personajes. Elimina personajes antes de importar. La colección y selección actuales permanecen intactas."
+          }
+        }
+      }
+    },
+    "I": {
+      "status": "Superada",
+      "details": {
+        "desktopMetrics": {
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "hasHorizontalScroll": false,
+          "activeElementId": "btn-export-png"
+        },
+        "narrowMetrics": {
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "hasHorizontalScroll": false,
+          "newBtnVisible": true,
+          "exportPngVisible": true,
+          "canvasRect": {
+            "width": 332,
+            "height": 415
+          }
+        },
+        "helpCheck": {
+          "visible": true,
+          "mentionsIndexedDB": true,
+          "mentionsLocationLimit": true,
+          "mentionsPortableJson": true
+        }
+      }
+    },
+    "H": {
+      "status": "Superada",
+      "details": {
+        "consoleErrors": [],
+        "unhandledExceptions": [],
+        "totalObservedRequests": 96,
+        "externalNetworkRequests": [],
+        "isolatedCheck": {
+          "href": "file:///C:/Users/adame/AppData/Local/Temp/oc-passport-test-0FsHF1/isolated-folder/oc-passport.html",
+          "demosLoaded": true,
+          "storageStatus": "Guardado"
+        }
+      }
+    },
+    "J": {
+      "status": "Superada",
+      "details": {
+        "recordedInAcceptanceMd": true,
+        "screenshotsGenerated": [
+          "01-inicio-demos-escritorio.png",
+          "02-maximos-simultaneos-ficha.png",
+          "03-modo-temporal-almacenamiento.png",
+          "04-validacion-rechazo-y-limite-20.png",
+          "05-escritorio-1440x900-foco.png",
+          "06-modal-ayuda-guardado.png",
+          "07-ventana-estrecha-390x844-superior.png",
+          "08-ventana-estrecha-390x844-ficha.png"
+        ],
+        "verificationArtifacts": [
+          "acceptance-report.json",
+          "copia-coleccion-v1.json",
+          "liora-vesper-ficha-1600x2000.png"
+        ]
+      }
+    }
+  },
+  "completedAt": "2026-10-17T00:04:02.779Z"
+}
